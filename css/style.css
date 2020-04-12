@@ -1,0 +1,192 @@
+body {
+  font-family: " Montserrat", sans-serif;
+  font-size: 1rem;
+}
+
+#title {
+  background: #EA536F;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+  font-weight: 900;
+}
+
+.container-fluid {
+  padding: 3% 11%;
+}
+
+.nav-bold {
+  font-size: 2rem;
+  ;
+  font-family: "ubutu", sans-serif;
+  font-weight: bold;
+}
+
+.nav-space-below {
+  padding-bottom: 1.2rem;
+}
+
+.nav-pad {
+  padding: 0 20px 0 20px;
+}
+
+.download-button {
+  margin: 33px 10px;
+}
+
+img.dog-img {
+  width: 60%;
+  transform: rotate(27deg);
+  position: absolute;
+  right: 80px;
+}
+
+.icon-style {
+  font-size: 70px;
+  margin-bottom: 10px;
+  color: #ef8172;
+}
+
+.icon-style:hover {
+  color: #ff4c68;
+}
+
+.features-align {
+  text-align: center;
+  padding: 7% 10%;
+  position: relative;
+  background: #fff;
+}
+
+.features-align p {
+  color: #8f8f8f;
+  font-size: 1.3rem;
+}
+
+.features-align h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.pad-features {
+  padding: 18px;
+}
+
+section#testimonials {
+  background: #FF4C68;
+  color: white;
+  text-align: center;
+}
+
+section#testimonials h2 {
+  font-family: "monserrate", sans-serif;
+  font-weight: 700;
+}
+
+section#testimonials img {
+  width: 20%;
+  border-radius: 50%;
+  margin: 23px;
+}
+
+#press {
+  background: #FF4C68;
+  padding: 0 5% 10% 5%;
+}
+
+#press img {
+  width: 22%;
+  display: inline-block;
+  height: 72px;
+  margin-left: 20px;
+}
+
+.carousel-item-padding {
+  padding: 7% 15%;
+}
+
+#pricing {
+  padding: 5% 10%;
+  text-align: center;
+}
+
+#pricing .card {
+  margin-bottom: 15px;
+}
+
+.card-body button {
+  padding: .3rem 7rem;
+}
+
+section#cta {
+  background: #FF4B67;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+section#cta h3 {
+  font-family: "monserrat", sans-serif;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 33px;
+}
+section#cta button {
+    margin: 16px 14px;
+}
+footer#footer {
+    padding: 1% 10%;
+    text-align: center;
+}
+
+footer#footer i {
+    font-size: 19px;
+    padding: 10px;
+    margin: 10px 4px;
+}
+
+footer#footer p {
+    color: rgb(191, 181, 181);
+}
+@media screen and (max-width: 600px) {
+  h1{
+    font-size: 30px;
+    text-align: center;
+  }
+  .download-button{
+    padding: 5px;
+    width: 110px;
+    height: 50px;
+    font-size: 16px;
+    margin: 5px;
+  }
+  .container-fluid{
+    text-align: center;
+  }
+  img.dog-img {
+    transform: rotate(0);
+    position: static;
+    width: 30%;
+  }
+  #press img {
+    width: 43%;
+    display: inline-block;
+    height: 46px;
+    margin-left: 20px;
+    margin: 0 20px 22px 0;
+}
+.card-body button {
+    padding: 0.3rem 5rem;
+}
+section#cta button{
+  padding: 5px;
+  width: 110px;
+  height: 50px;
+  font-size: 16px;
+  margin: 5px;
+}
+}
